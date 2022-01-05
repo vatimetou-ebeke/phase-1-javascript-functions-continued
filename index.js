@@ -9,3 +9,9 @@ function mondayWork(target="go to the office"){
     return `This Monday, I will ${target}.`
 
 }
+function wrapAdjective(flair="*"){
+    return function(target="special"){
+        return  `You are ${flair}${target}${flair}!`
+        
+    }
+}
